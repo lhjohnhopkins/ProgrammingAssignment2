@@ -30,7 +30,7 @@
 ##  No optimzations have been considered.
 
 ## Create a cached matrix object
-## x : the matrix, default to an "empty" matrix
+## cacheMat : the matrix (will be cached), default to an "empty" matrix
 ## returns an object with the cached matrix and a set of access methods
 ## for the cached matrix and it's inverse.
 makeCacheMatrix <- function(cacheMat = matrix()) {
